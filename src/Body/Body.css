@@ -1,0 +1,8 @@
+.body{
+    display: flex;
+    width: 1200px;
+height: 750px;
+margin: 4rem;
+background-color: #FFFFFF;
+border-radius: 30px;
+}
