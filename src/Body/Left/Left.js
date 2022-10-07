@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import List from '../Left/Left-list-element/List'
 import './Left.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 import {GiTigerHead} from 'react-icons/gi'
+import Settings from './Settings/Settings'
+
 
 const Left = () => {
     return (
@@ -22,7 +24,7 @@ const Left = () => {
             <List title="Collection" image=""/>
             <List title="Overview" image=""/>
             <List title="Status" image=""/>
-            <List title="Setting" image=""/>
+            <Settings title = "Settings" image = "" />
             <List title="Profile" image=""/>
 
             <div className="left__footer">

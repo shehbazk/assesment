@@ -1,0 +1,78 @@
+.list{
+    width: 100%;
+  }
+  .list__section{
+   height: 90px;
+   width: 100%;
+  display: flex;
+  border-top: 1px solid #0FEEFF;
+  border-bottom: 1px solid #0FEEFF;
+  
+  }
+  .list__text{
+      font-weight: 700;
+      font-size: 30px;
+      padding-top: 1.5rem;
+    letter-spacing: 0px;
+  color: #FFFFFF;
+  padding-left: 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .list__icon{
+      color: #FFFFFF;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  }
+  
+  .list :hover{
+    background-color: #0FEEFF;
+    border-radius: 30px;
+  }
+  .settings__btn{
+      background: none;
+      width: 100%;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+  }
+  .settings__btn :active{
+        background-color: #0FEEFF;
+        border-radius: 30px;
+      
+  }
+  .collapsable{
+  }
+  
+
+  .collapsable__list{
+    margin-left: 5rem;
+    list-style: none;
+
+  }
+  .collapsable-li{
+    
+    margin: 1rem;
+  }
+  .collapsable-li button{
+    background: none;
+    text-align: left;
+    width: 100%;
+    border: none;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    height: 25px;
+    border-radius: 10px;
+  
+  }
+  .collapsable-li :hover{
+    background-color: #0FEEFF;
+    transition: background-color 0.5s ease;
+    
+  }
+  
+    
+  
+  
+  

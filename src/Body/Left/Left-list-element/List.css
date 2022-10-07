@@ -27,8 +27,13 @@ padding-top: 0.5rem;
 .list :hover{
   background-color: #0FEEFF;
   border-radius: 30px;
+  transition: background-color 0.5s ease; 
 }
-
+.list :active{
+  background-color: #0FEEFF;
+  border-radius: 30px;
+  
+}
   
 
 
